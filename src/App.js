@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ScrollTopWidget from './components/ScrollTopWidget';
 import ScrollRestore from './components/ScrollRestore';
+import { motion } from 'framer-motion';
 import { posts } from './data/posts';
 
 import Homepage from './pages/Homepage';
@@ -16,6 +17,11 @@ export default function App() {
   return (
     <div className="min-h-screen w-full pt-36">
     <ScrollTopWidget />
+    <motion.div
+      initial={{ opacity: 0}}
+      animate={{ opacity: 1}}
+      exit={{ opacity: 0}}
+    >
     <Router>
       <ScrollRestore />
       <Navbar />
@@ -29,6 +35,7 @@ export default function App() {
         </Routes>
       </main>
     </Router>
+    </motion.div>
     <Footer />
     </div>
   )

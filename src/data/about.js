@@ -1,5 +1,5 @@
 export const about = {
-    avatar: 'https://avatars.githubusercontent.com/u/44001658?v=4',
+    avatar: 'https://images.pexels.com/photos/3231775/pexels-photo-3231775.jpeg?auto=compress&cs=tinysrgb&w=1600',
     name: 'The Hyggedev',
     email: 'blogfolio@mail.com',
     github: 'https://www.github.com/',
@@ -14,7 +14,7 @@ export const about = {
         },
         { 
             name: 'Instagram',
-            url: 'https://www.instagram'
+            url: 'https://www.instagram.com'
         },
     ],
     skills: [

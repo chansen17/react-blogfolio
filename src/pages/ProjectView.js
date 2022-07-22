@@ -1,11 +1,16 @@
 import { useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
   
   export default function ProjectView() {
     let location = useLocation();
     let project = location.state;
     console.log('project view', location.state);
   return (
-    <div className="w-full min-h-screen my-12">
+    <div 
+        // initial={{ width: 0}}
+        // animate={{ width: "100%"}}
+        // exit={{ x: window.innerWidth}}
+        className="w-full min-h-screen my-12">
         <div className="mxw-sm w-full flex items-center flex-col justify-center space-y-6 text-left sm:text-center my-12">
             <p className="animate animate__animated animate__fadeInDown animate__fast font-semibold capitalize">{project?.category}</p>
             <h2 className="animate animate__animated animate__fadeInDown animate__fast  text-4xl md:text-6xl font-bold capitalize">{project?.name}</h2>
@@ -24,7 +29,7 @@ import { useLocation } from "react-router-dom";
         {/* content */}
         <section className="mxw-sm my-12">
             <div className="flex justify-start my-12">
-                <h2 className="text-4xl md:text-6xl">Project Overview</h2>
+                <h2 className="text-4xl md:text-6xl">Overview</h2>
             </div>
             <p className="text-2xl md:text-3xl font-light first-letter:text-4xl first-letter:md:text-6xl first-letter:font-semibold">{project?.overview}</p>
         </section>

@@ -1,11 +1,13 @@
 import React from 'react'
+import AnimatedPage from '../components/AnimatedPage';
 import { about } from '../data/about'
 
 export default function About() {
     let info = about;
 
   return (
-    <div className="w-full min-h-screen">
+    <AnimatedPage>
+        <div className="w-full min-h-screen">
         <div className="mxw-sm w-full my-12 relative">
             <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold">The Bio.</h2>
         </div>
@@ -32,5 +34,6 @@ export default function About() {
             <p className="text-2xl md:text-3xl py-6">{info?.bioMain}</p>
         </section>
     </div>
+    </AnimatedPage>
   )
 }

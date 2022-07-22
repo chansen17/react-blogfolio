@@ -1,6 +1,7 @@
 export const projects = [
     {
         id: 0,
+        featured: true,
         name: 'Project One',
         category: 'html',
         stack: [
@@ -21,6 +22,7 @@ export const projects = [
     },
     {
         id: 1,
+        featured: false,
         name: 'Project Two',
         category: 'html',
         stack: [
@@ -41,6 +43,7 @@ export const projects = [
     },
     {
         id: 2,
+        featured: false,
         name: 'Project Three',
         category: 'html',
         stack: [
@@ -61,6 +64,7 @@ export const projects = [
     },
     {
         id: 3,
+        featured: false,
         name: 'Project Four',
         category: 'html',
         stack: [
@@ -81,6 +85,7 @@ export const projects = [
     },
     {
         id: 4,
+        featured: false,
         name: 'Project Five',
         category: 'html',
         stack: [
@@ -101,6 +106,7 @@ export const projects = [
     },
     {
         id: 5,
+        featured: true,
         name: 'Project Six',
         category: 'html',
         stack: [
@@ -121,6 +127,7 @@ export const projects = [
     },
     {
         id: 6,
+        featured: false,
         name: 'Project Seven',
         category: 'html',
         stack: [
@@ -141,6 +148,7 @@ export const projects = [
     },
     {
         id: 7,
+        featured: false,
         name: 'Project Eight',
         category: 'html',
         stack: [
@@ -161,6 +169,7 @@ export const projects = [
     },
     {
         id: 8,
+        featured: false,
         name: 'Project Nine',
         category: 'html',
         stack: [

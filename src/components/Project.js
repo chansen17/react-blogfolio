@@ -10,7 +10,8 @@ export default function Project({project}) {
             <img className="h-56 w-full object-cover rounded-lg" src={project?.cover} alt="project cover image" />
         </div>
         <div className="py-4 space-y-3">
-            <h2>{project?.name}</h2>
+            <h2 className="text-xl md:text-2xl font-light">{project?.name}</h2>
+            <p className="text-md md:text-lg truncate">{project?.overview}</p>
         </div>
         </>
         </Link>
