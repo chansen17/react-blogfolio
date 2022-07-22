@@ -30,7 +30,13 @@ export default function About() {
         <div className="w-full my-12 max-w-[200px] mx-auto h-3 bg-gray-200" />
         <section className="mxw-sm my-12">
             <p className="text-2xl md:text-3xl font-light">{info?.bioSub}</p>
-            <div className="w-full my-12 max-w-[200px] mx-auto h-3 bg-gray-200" />
+            {/* skills  */}
+            <p className="text-2xl md:text-3xl my-12">Skills include:</p>
+            <div className="flex items-center flex-wrap">
+                {about?.skills?.map((skill) => (
+                    <span className="py-2 px-3 my-1 mx-2 shadow-lg shadow-slate-300 bg-rose-500 text-white font-semibold">{skill?.name}</span>
+                ))}
+            </div>
             <p className="text-2xl md:text-3xl py-6">{info?.bioMain}</p>
         </section>
     </div>

@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
         // exit={{ x: window.innerWidth}}
         className="w-full min-h-screen my-12">
         <div className="mxw-sm w-full flex items-center flex-col justify-center space-y-6 text-left sm:text-center my-12">
-            <p className="animate animate__animated animate__fadeInDown animate__fast font-bold uppercase">{project?.category}</p>
+            <p className={project?.category === 'web3' ? "animate animate__animated animate__fadeInDown animate__fast font-future uppercase" : "animate animate__animated animate__fadeInDown animate__fast font-bold uppercase"}>{project?.category}</p>
             <h2 className="animate animate__animated animate__fadeInDown animate__fast text-4xl md:text-6xl font-bold capitalize">{project?.name}</h2>
             <p className="animate animate__animated animate__fadeIn animate__slow text-xl font-light">{project?.excerpt}</p>
             <div className="flex items-center space-x-2">

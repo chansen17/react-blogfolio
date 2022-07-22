@@ -2,8 +2,8 @@ export const projects = [
     {
         id: 0,
         featured: true,
-        name: 'Project One',
-        category: 'html',
+        name: 'NFT launch site',
+        category: 'web3',
         stack: [
             {
                 name: 'html',
@@ -23,8 +23,8 @@ export const projects = [
     {
         id: 1,
         featured: false,
-        name: 'Project Two',
-        category: 'html',
+        name: 'The Gallery',
+        category: 'css',
         stack: [
             {
                 name: 'html',
@@ -44,8 +44,8 @@ export const projects = [
     {
         id: 2,
         featured: false,
-        name: 'Project Three',
-        category: 'html',
+        name: 'Fullstack Weather',
+        category: 'next',
         stack: [
             {
                 name: 'html',
@@ -65,8 +65,8 @@ export const projects = [
     {
         id: 3,
         featured: false,
-        name: 'Project Four',
-        category: 'html',
+        name: 'blockchain note taker',
+        category: 'web3',
         stack: [
             {
                 name: 'html',
@@ -86,8 +86,8 @@ export const projects = [
     {
         id: 4,
         featured: false,
-        name: 'Project Five',
-        category: 'html',
+        name: 'Meetup app',
+        category: 'react',
         stack: [
             {
                 name: 'html',
@@ -107,8 +107,8 @@ export const projects = [
     {
         id: 5,
         featured: true,
-        name: 'Project Six',
-        category: 'html',
+        name: 'NFT Marketplace',
+        category: 'web3',
         stack: [
             {
                 name: 'html',
@@ -128,8 +128,8 @@ export const projects = [
     {
         id: 6,
         featured: false,
-        name: 'Project Seven',
-        category: 'html',
+        name: 'Fullstack Crypto Market',
+        category: 'javascript',
         stack: [
             {
                 name: 'html',
@@ -149,8 +149,8 @@ export const projects = [
     {
         id: 7,
         featured: false,
-        name: 'Project Eight',
-        category: 'html',
+        name: 'Order now',
+        category: 'fullstack',
         stack: [
             {
                 name: 'html',
@@ -170,8 +170,8 @@ export const projects = [
     {
         id: 8,
         featured: false,
-        name: 'Project Nine',
-        category: 'html',
+        name: 'Glitchy',
+        category: 'web3',
         stack: [
             {
                 name: 'html',
